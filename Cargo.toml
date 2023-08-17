@@ -1,0 +1,16 @@
+[package]
+name = "clone-basher"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusty-duplication = "0.5.0"
+image = "0.24.7"
+winapi = {version = "0.3.9", features = ["winuser"]}
+
+# Set the default for dependencies. 
+# needed as png algorithm is hella slow on non optimized
+[profile.dev.package."*"] 
+opt-level = 3

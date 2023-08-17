@@ -1,0 +1,17 @@
+pub const A: u16 = 0x41;
+pub const S: u16 = 0x53;
+pub const J: u16 = 0x4A;
+pub const K: u16 = 0x4B;
+pub const L: u16 = 0x4C;
+
+pub const UP: u16 = 0x26;
+pub const DN: u16 = 0x28;
+
+// a: 0x41
+// s: 0x53
+// j: 0x4A
+// k: 0x4B
+// l: 0x4C
+
+// up: 0x26
+// dn: 0x28
